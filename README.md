@@ -57,7 +57,7 @@ Logo, o Bulbasaur possui a maior quantidade de atributos que são maiores que os
 
 - O README
 - Se a aplicação funciona
-- Se contém todos os itens obrigatórios detalhados em [O que queremos que você construa](#o-que-queremos-que-voce-construa)
+- Se contém todos os itens obrigatórios detalhados em [O que queremos que você construa](#o-que-queremos-que-você-construa)
 - A organização do seu código
 - Seus commits, branches e etc
 - A sua modelagem do banco de dados
@@ -65,14 +65,13 @@ Logo, o Bulbasaur possui a maior quantidade de atributos que são maiores que os
 ### O que não iremos avaliar
 
 ---
-
 - Testes unitários
 
 ### As Operações
 
 ---
 
-#### Cadastro de cartas
+#### _1 - Cadastro de cartas_
 
 Esta operação deverá realizar o cadastro de uma carta e retornar o identificador dela na resposta.
 
@@ -106,7 +105,7 @@ Na resposta é importante devolver o identificador da carta cadastrada, fique à
 
 **Body**: À sua escolha
 
-#### Listagem de cartas
+#### _2 - Listagem de cartas_
 
 Esta operação deverá listar todas as cartas cadastradas na aplicação.
 
@@ -142,7 +141,7 @@ Devolver uma listagem das cartas.
 ]
 ```
 
-#### Consulta de cartas
+#### _3 - Consulta de cartas_
 
 Esta operação deverá retornar uma carta específica baseada em seu identificador.
 
@@ -156,7 +155,7 @@ Esta operação deverá retornar uma carta específica baseada em seu identifica
 
 ##### Resposta
 
-Devolver uma listagem das cartas.
+Devolver uma carta.
 
 **Status Code**: À sua escolha
 
@@ -177,7 +176,7 @@ Devolver uma listagem das cartas.
 }
 ```
 
-#### Comparação de cartas
+#### _4 - Comparação de cartas_
 
 Esta operação deverá fazer a comparação seguindo a explicação dada anteriormente e após cada comparação, registre em banco de dados os resultados.
 
@@ -219,7 +218,7 @@ Esta operação deverá fazer a comparação seguindo a explicação dada anteri
 
 > OBS.: Em caso de empate você deverá retornar um Status Code diferente, a comparação não deverá ser registrada no banco de dados o corpo da resposta pode ser vazio.
 
-#### Resultado acumulado
+#### _5 - Resultado acumulado_
 
 Esta operação deverá fornecer um resultado acumulado de todas as comparações feitas dentro da aplicação, informando o somatório de vitórias dos dois jogadores. Neste caso, não há a necessidade de envio de dados na requisição, sendo importante termos apenas a resposta.
 
